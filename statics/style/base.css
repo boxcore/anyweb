@@ -1,0 +1,34 @@
+/**
+ * YUI CSS Reset
+ * @type {global}
+ */
+html{color:#000;background:#FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}
+legend{color:#000}
+#yui3-css-stamp.cssreset{display:none}
+
+/**
+ * APP reset
+ */
+body { font-size:12px; font-family:"SimSun"; }
+.fl { display: block; float: left; }
+.fr { display: block; float: right; }
+.block { display: block; }
+.none { display: none; }
+.highlight { color:#c00; }
+a.indiv{display: block; float: left; width:100%; height: 100%; overflow: hidden;}
+span.detail-link{color: #FF0000}
+
+/**/
+body { min-height: 2000px; padding-top: 70px; }
